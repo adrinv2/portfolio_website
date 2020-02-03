@@ -1,0 +1,105 @@
+body {
+  /* overflow: hidden; */
+  /*ACTIVATE THIS ^^^ TO STOP SCROLLING*/
+  /* font-family: 'Merriweather', serif; */
+
+}
+
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+h1{
+  font-family: 'Lemonada', cursive;
+  font-size: 15px;
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 2em;
+  right: 2em;
+  padding: var(--font-size-l) 0;
+  border-bottom: 1px solid var(--charcoal-light);
+  box-sizing: border-box;
+  z-index: 99;
+}
+
+nav>ul {
+  list-style: none;
+}
+
+nav ul>li {
+  display: inline-block;
+  margin: 0 1em 0 0;
+
+}
+
+.allprojects {
+  padding-top: 4em;
+    padding-bottom: 3em;
+  /* background-color: red; */
+  margin-left: 10%;
+  margin-right: 5%;
+  /* margin-bottom: 7%; */
+  width: 85%;
+  height: auto;
+}
+
+#projectuno{
+  display: flex;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  width: 16vw;
+  /* width: 38vw; */
+  height: 40vh;
+  background-color: gray;
+}
+
+
+.textbit {
+  margin-top: 3em;
+  margin-bottom: 5em;
+
+    /* width: 100%; */
+  position: relative;
+  float: left;
+  width: 37%;
+  /* background: #ccc; */
+  padding: 10px;
+
+
+}
+
+article {
+    /* padding-top: 6em; */
+    margin-top: 3em;
+    margin-bottom: 5em;
+
+
+  float: right;
+  padding: 10px;
+  width: 55%;
+  /* background-color: #f1f1f1; */
+
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 700px) {
+  nav, article {
+    width: 100%;
+    /* height: auto; */
+  }
+}
+
+#projectdos{
+  display: flex;
+}
+#projecttres{
+  display: flex;
+}
