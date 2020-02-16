@@ -3,17 +3,9 @@ body {
   /*ACTIVATE THIS ^^^ TO STOP SCROLLING*/
   /* font-family: 'Merriweather', serif; */
 
-}
+font-family: 'Poppins', sans-serif;
+color: blue;
 
-
-p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 13px;
-}
-
-h1{
-  font-family: 'Lemonada', cursive;
-  font-size: 15px;
 }
 
 
@@ -33,6 +25,7 @@ nav>ul {
 }
 
 nav ul>li {
+
   display: inline-block;
   margin: 0 1em 0 0;
 
@@ -49,18 +42,19 @@ nav ul>li {
   height: auto;
 }
 
-#projectuno{
-  display: flex;
-}
 .container {
   display: inline-block;
   position: relative;
   width: 16vw;
   /* width: 38vw; */
   height: 40vh;
-  background-color: gray;
+ border: 1px solid blue;
 }
 
+#projectuno{
+  display: flex;
+  color: blue;
+}
 
 .textbit {
   margin-top: 3em;
@@ -90,16 +84,85 @@ article {
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   nav, article {
     width: 100%;
-    /* height: auto; */
+
   }
-}
+} */
 
 #projectdos{
   display: flex;
 }
 #projecttres{
   display: flex;
+}
+
+
+#home{
+  text-decoration: none;
+  color: blue;
+}
+#contact{
+  text-decoration: none;
+  color: blue;
+}
+#resume{
+  text-decoration: none;
+  color: blue;
+}
+
+
+.scrolling-wrapper {
+  /* background-color: yellow; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: auto;
+  height: auto;
+  }
+
+  .card {
+    /* max-height: 200px; */
+    max-width: 100%;
+    /* background-color: red; */
+  /* max-width: 300px; */
+  display: inline-block;
+    -webkit-flex: 0 0 auto;
+  }
+img{
+  width:100%;
+}
+
+
+.resume-content {
+    margin: 1em 0 2em 0;
+    list-style: none;
+}
+
+.resume-content-item {
+    font-size: var(--font-size-m);
+    line-height: calc(var(--line-height) * 2);
+    border-bottom: 1px solid black;
+    padding-left: 2em;
+}
+
+#resumee > section:nth-last-of-type() > .resume-content {
+    margin-bottom: 0;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: yellow;
+   border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+   border-radius: 10px;
 }
