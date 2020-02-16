@@ -24,6 +24,7 @@ nav {
   border-bottom: 1px solid var(--charcoal-light);
   box-sizing: border-box;
   z-index: 99;
+  background-color: rgba(255, 255, 255, 0.50);
 }
 
 nav>ul {
@@ -38,14 +39,14 @@ nav ul>li {
 }
 
 .allprojects {
-  padding-top: 4em;
+  padding-top: 3em;
     padding-bottom: 3em;
   /* background-color: red; */
-  margin-left: 10%;
+  margin-left: 8%;
   margin-right: 5%;
   /* margin-bottom: 7%; */
-  width: 85%;
-  height: auto;
+
+
 }
 
 .container {
@@ -53,7 +54,7 @@ nav ul>li {
   position: relative;
   width: 16vw;
   /* width: 38vw; */
-  height: 40vh;
+  height: 14em;
  border: 1px solid blue;
 }
 
@@ -109,6 +110,12 @@ article {
   display: flex;
 }
 #projectcinco{
+  display: flex;
+}
+#projectseis{
+  display: flex;
+}
+#projectsiete{
   display: flex;
 }
 
